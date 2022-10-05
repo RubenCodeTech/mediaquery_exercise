@@ -1,0 +1,51 @@
+body{
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    justify-content: center;
+    background-color: black;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    justify-content: center;
+    justify-content: space-between;
+    background-color: black;
+}
+header{
+    background-color: cyan;
+}
+div{
+    background-color: brown;
+}
+
+article{
+    background-color: green;
+}
+aside{
+    background-color: blueviolet;
+}
+footer{
+    background-color: gray;
+}
+section{
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 480px) and (max-width: 769px){
+    section{
+        display: flex;
+        flex-direction: row;
+    }
+}
+@media (min-width:770px){
+    section{
+        display:flex;
+        flex-direction: row;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
